@@ -151,7 +151,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const msg = encodeURIComponent(
         `Admission Enquiry (2026-27) - Spring Dales English School\nStudent: ${student}\nClass: ${grade}\nParent: ${parent}\nPhone: ${phone}\nTransport: ${transport}\nNotes: ${notes || "N/A"}`
       );
-      const waUrl = `https://wa.me/919622215222?text=${msg}`;
+      const waUrl = `https://wa.me/916280039604?text=${msg}`;
 
       admissionFeedback.className = "form-feedback success";
       admissionFeedback.innerHTML = `Thank you, ${parent}! Your enquiry for ${student} has been recorded. <a href="${waUrl}" target="_blank" rel="noopener" style="text-decoration:underline;">Click here to also send directly via WhatsApp &rarr;</a>`;
@@ -179,7 +179,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const msg = encodeURIComponent(
         `Website Message - Spring Dales English School\nName: ${name}\nPhone: ${phone}\nSubject: ${subject}\nMessage: ${message}`
       );
-      const waUrl = `https://wa.me/919622215222?text=${msg}`;
+      const waUrl = `https://wa.me/916280039604?text=${msg}`;
 
       contactFeedback.className = "form-feedback success";
       contactFeedback.innerHTML = `Message received! Our office will reach out shortly. <a href="${waUrl}" target="_blank" rel="noopener" style="text-decoration:underline;">Send instantly on WhatsApp &rarr;</a>`;
